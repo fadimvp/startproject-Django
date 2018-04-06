@@ -1,0 +1,61 @@
+{% extends 'base.html' %}
+-----------------------------------
+{% block jumbotron %}
+
+  {% endblock %}
+  </style>
+      <!-- Main component for a primary marketing message or call to action -->
+ <div class="jumbotron">
+     <div class="container">
+         {% block co %}
+<div class="row">
+
+    <div class="col-sm-7">
+            <h1 class="lead  text-align-center">Navbar example</h1>
+            <p>This example is a quick exercise to illustrate how the default, static and fixed to top navbar work. It includes the responsive CSS and HTML, so it also adapts to your viewport and device.</p>
+            <p>To see the difference between static and fixed top navbars, just scroll.</p>
+            <p>
+              <a class="btn btn-lg btn-primary" href="../../components/#navbar" role="button">JOIN US &raquo;</a>
+            </p>
+          </div>
+
+            <div class="col-sm-5">
+                  <iframe width="560" height="315" src="https://www.youtube.com/embed/topjvXzjdYM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          </div>
+
+          </div>
+    </div>
+    {% endblock %}
+    </div><!-- /container -->
+
+
+
+
+<div class="row">
+
+    <div class="col-sm-6 col-sm-3 pull-right">
+
+
+        <h class="lead  text-align-center">{{title}}</h>
+        {{user}}
+        <form method="POST" action="">{% csrf_token %}
+             {{ form}}
+
+        <input class="btn btn-primary" type="submit" value="Sign Up">
+
+        </form>
+
+
+
+
+
+----------------------------------
+{% block content %}
+<div class="row ">
+    <div class="col-sm-6 col-sm-offset-3">
+        <h1>this is about </h1>
+        <p>this not real procject mvp team learing studint this not real procject mvp team learing studint
+        this not real procject mvp team learing studintthis not real procject mvp team learing studint</p>
+    </div>
+</div>
+{% endblock %}

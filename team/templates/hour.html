@@ -1,0 +1,6 @@
+{% load crispy_forms_tags %}
+
+<form method="POST" action="">{% csrf_token %}
+    {{ forms |crispy }}
+    <input type="submit" value="SUIGN UPr">
+</form>
